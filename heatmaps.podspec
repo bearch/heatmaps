@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes', 'Classes/**/*.{h,m}'
   s.public_header_files = 'Classes/**/*.h'
 
-  s.frameworks = 'CFNetwork', 'SystemConfiguration', 'MobileCoreServices'
+  s.frameworks = 'CFNetwork', 'SystemConfiguration', 'MobileCoreServices', 'Heatmaps'
 
   s.library   = 'libz.dylib'
 
